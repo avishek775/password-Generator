@@ -1,0 +1,25 @@
+{
+  "name": "04passwordgenerator",
+  "private": true,
+  "version": "0.0.0",
+  "homepage": "https://github.com/avishek775/password-Generator.git",
+  "type": "module",
+  "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1",
+    "preact": "^10.19.5"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.8.1",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.1.4"
+  }
+}
